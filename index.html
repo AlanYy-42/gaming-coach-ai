@@ -10,23 +10,27 @@
 <body>
     <header>
         <h1>GamingCoach.AI</h1>
-        <p>Level up your game with personalized AI coaching</p>
+        <p>Level up your Riot Games experience with personalized AI coaching</p>
+        <div class="game-icons">
+            <span class="game-icon lol">LoL</span>
+            <span class="game-icon valorant">VAL</span>
+        </div>
     </header>
     
     <section id="problem">
         <h2>The Problem: Inefficient Improvement</h2>
-        <p><strong>Lack of Feedback:</strong> Gamers struggle without personalized insights.</p>
-        <p><strong>Time Consuming:</strong> Trial and error learning is inefficient.</p>
-        <p><strong>Limited Coaching:</strong> Professional coaching is not widely accessible.</p>
+        <p><strong>Lack of Feedback:</strong> Riot Games players struggle to understand their mistakes in complex team fights and strategic decisions.</p>
+        <p><strong>Time Consuming:</strong> Reviewing VODs and analyzing your own gameplay takes hours away from actual playing time.</p>
+        <p><strong>Limited Coaching:</strong> Professional coaching for League of Legends and Valorant is expensive and not accessible to most players.</p>
     </section>
     
     <section id="solution">
         <h2>How Our AI Works</h2>
         <ul>
-            <li><strong>Gameplay Data:</strong> Collects in-game stats and player actions.</li>
-            <li><strong>AI Analysis:</strong> Identifies mistakes and patterns using ML.</li>
-            <li><strong>Personalized Feedback:</strong> Generates reports and suggests improvements.</li>
-            <li><strong>Training Drills:</strong> Tailored practice to address weaknesses.</li>
+            <li><strong>Gameplay Data:</strong> Connects to Riot API to collect match history, champion stats, CS scores, vision scores, and combat metrics.</li>
+            <li><strong>AI Analysis:</strong> Identifies mistakes in positioning, map awareness, and mechanical execution using machine learning trained on pro player data.</li>
+            <li><strong>Personalized Feedback:</strong> Generates detailed reports on your performance with specific suggestions for champion pool, item builds, and team fight positioning.</li>
+            <li><strong>Training Drills:</strong> Creates custom practice routines for improving CS in LoL or aim training in Valorant based on your specific weaknesses.</li>
         </ul>
     </section>
     
@@ -34,23 +38,47 @@
         <h2>Who Benefits?</h2>
         <div class="benefit-container">
             <div class="benefit">
-                <h3><i class="fas fa-gamepad"></i> Casual Gamers</h3>
-                <p>Improve efficiently without big investments.</p>
+                <h3><i class="fas fa-gamepad"></i> Casual Players</h3>
+                <p>Climb from Iron to Gold with targeted advice on fundamental skills and champion mastery without spending hours studying the meta.</p>
             </div>
             <div class="benefit">
-                <h3><i class="fas fa-trophy"></i> Competitive Players</h3>
-                <p>Gain an edge in ranked matches and tournaments.</p>
+                <h3><i class="fas fa-trophy"></i> Ranked Grinders</h3>
+                <p>Break through plateaus in Platinum and Diamond with advanced insights on wave management, jungle pathing, and agent utility usage.</p>
             </div>
             <div class="benefit">
                 <h3><i class="fas fa-star"></i> Esports Aspirants</h3>
-                <p>Reach professional levels with structured training.</p>
+                <p>Develop Master/Challenger level decision-making and mechanical skills with pro-level analysis of your gameplay in scrims and competitive matches.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="games">
+        <h2>Supported Games</h2>
+        <div class="games-container">
+            <div class="game lol">
+                <h3>League of Legends</h3>
+                <div class="game-features">
+                    <p><i class="fas fa-chart-line"></i> <strong>Lane Performance Analysis:</strong> CS, trading patterns, wave management</p>
+                    <p><i class="fas fa-users"></i> <strong>Team Fight Breakdown:</strong> Positioning, target selection, ability usage</p>
+                    <p><i class="fas fa-map"></i> <strong>Map Movement Optimization:</strong> Rotations, objective control, vision</p>
+                    <p><i class="fas fa-chess"></i> <strong>Champion-specific Insights:</strong> Matchup advice, build optimization</p>
+                </div>
+            </div>
+            <div class="game valorant">
+                <h3>Valorant</h3>
+                <div class="game-features">
+                    <p><i class="fas fa-crosshairs"></i> <strong>Aim Analysis:</strong> Accuracy, reaction time, crosshair placement</p>
+                    <p><i class="fas fa-bomb"></i> <strong>Site Execution Review:</strong> Utility usage, entry fragging, post-plant</p>
+                    <p><i class="fas fa-shield-alt"></i> <strong>Defensive Setups:</strong> Positioning, rotations, retake strategies</p>
+                    <p><i class="fas fa-user-secret"></i> <strong>Agent Mastery:</strong> Ability combos, role fulfillment, team synergy</p>
+                </div>
             </div>
         </div>
     </section>
     
     <footer>
         <p>© 2025 GamingCoach.AI - All rights reserved.</p>
-        <p><a href="#">Learn More</a> | <a href="#">Contact Us</a></p>
+        <p><a href="#">Learn More</a> | <a href="#">Contact Us</a> | <a href="https://developer.riotgames.com/">Riot API</a></p>
     </footer>
 </body>
 </html>
